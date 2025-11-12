@@ -12,7 +12,7 @@ bool isStudent = false; // TODO: Initialize with true or false
 // TODO: Implement the calculateBMI function
 double calculateBMI(double weight, double height) {
   // TODO: Calculate BMI = weight / (height * height)
-  return 0.0; // TODO: Replace with actual calculation
+  return weight/height; // TODO: Replace with actual calculation
 }
 
 // 3. Write a function called getGrade that takes a score (int) and returns a grade (String) based on:
